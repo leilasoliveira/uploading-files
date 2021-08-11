@@ -1,0 +1,9 @@
+
+delete tb_tm_multibroker_authentication_fields where id_field = 10 and id_broker = 86
+
+update tb_broker_trades_parameters set set broker_description = " 
+Como vincular seu TradeMap à Órama??
+1- Acesse www.orama.com.br e no tópico 'Configurações' do menu superior lateral direito;
+2- Em 'Configurações de renda variável' pressione Trademap;
+3- Ative o serviço clicando no botão do lado direito e em seguida pressionando 'Habilitar';
+4- Na sequencia pressione o botão 'Confirmar' abaixo."  where id_broker = 86
